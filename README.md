@@ -7,6 +7,7 @@
 
 A SQL + Python case study analyzing hotel booking cancellations, revenue impact, and demand patterns, with an interactive Streamlit dashboard for exploring the results.
 
+**Live app:** https://hotel-booking-demand-analysis-bsaeu4bj3op7ut6osyglup.streamlit.app/
 **Author:** [Samrat Koushik](https://github.com/samratkoushik)
 
 ---
@@ -62,6 +63,7 @@ Hotels lose meaningful revenue to booking cancellations. This analysis answers:
 - KPI monitoring (cancellation rate, revenue, booking trends)
 - Geographic and temporal analysis
 - Customer segment performance
+- Live app: https://hotel-booking-demand-analysis-bsaeu4bj3op7ut6osyglup.streamlit.app/
 
 ## Key Findings
 
