@@ -47,7 +47,7 @@ st.markdown("""
 @st.cache_data
 def load_data():
     try:
-        df = pd.read_csv('hotel_bookings.csv')
+        df = pd.read_csv('data/hotel_bookings.csv')
         
         df['total_nights'] = df['stays_in_weekend_nights'] + df['stays_in_week_nights']
         df['total_guests'] = df['adults'] + df['children'] + df['babies']

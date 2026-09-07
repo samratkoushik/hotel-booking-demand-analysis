@@ -50,7 +50,7 @@ CREATE INDEX IX_hotel_bookings_customer_type ON hotel_bookings(customer_type);
 
 /*
 BULK INSERT hotel_bookings
-FROM 'hotel_bookings.csv'  -- update path to match your local setup
+FROM '../data/hotel_bookings.csv'  -- update path to match your local setup
 WITH (
     FIELDTERMINATOR = ',',
     ROWTERMINATOR = '\n',
